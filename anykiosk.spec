@@ -18,7 +18,8 @@ Packager: Denjs <denjs@users.berlios.de>
 
 Source: anykiosk-%ver.%reldate.tar.gz
 
-BuildArch:      noarch
+#BuildArch:      noarch
+BuildArch:      i586
 
 #BuildRequires:  python-devel, python-module-setuptools
 BuildPreReq:  python-devel
