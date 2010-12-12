@@ -43,7 +43,12 @@ AnyKiosk - утилита автоматической настройки раз
 
 %files
 
+#%changelog
+#* 2010.12.02 Denjs 
+#    Initial build for Sisyphus
+#    (firefox plugin and Qt4 interface)    
+
 %changelog
-2010.12.02 Denjs 
-    * Initial build for Sisyphus
-    (firefox plugin and Qt4 interface)    
+* Sun Dec 12 2010 Denjs <denjs@users.berlios.de>
++ Initial build for Sisyphus
+
