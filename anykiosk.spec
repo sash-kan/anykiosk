@@ -18,14 +18,14 @@ Packager: Denjs <denjs@users.berlios.de>
 
 Source: anykiosk-%ver.%reldate.tar.gz
 
-#BuildArch:      noarch
-BuildArch:      i586
+BuildArch:      noarch
+#BuildArch:      i586
 
 #BuildRequires:  python-devel, python-module-setuptools
-BuildPreReq:  python-devel
+BuildPreReq: python-module-PyQt4 perl
 
-BuildPreReq: %py_dependencies setuptools
-BuildPreReq: %py_dependencies qt4
+#BuildPreReq: %py_dependencies setuptools
+#BuildPreReq: %py_dependencies qt4
 
 %description
 AnyKiosk - утилита автоматической настройки различных программ в режим киоска -
@@ -33,7 +33,7 @@ AnyKiosk - утилита автоматической настройки раз
 Версия 0.0.2 поставляется с плагином для FireFix 3.6.
 
 %prep
-%setup -q
+#%setup -q
 
 %build
 %python_build
