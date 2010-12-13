@@ -8,6 +8,7 @@ install: all
 	mkdir -p $(DATADIR)
 	cp -r . $(DATADIR)/
 
+	mkdir -p $(DESTDIR)/usr/bin/
 	cp anykiosk $(DESTDIR)/usr/bin/
 
 	## The following changes should also be performed in a post-install script
