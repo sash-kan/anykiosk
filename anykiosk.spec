@@ -47,6 +47,7 @@ AnyKiosk - утилита настройки различных программ
 %files
 /usr/share/anykiosk/tmp
 /usr/share/anykiosk/*.py
+/usr/share/anykiosk/moz-byteshift.pl
 /usr/bin/anykiosk
 
 
