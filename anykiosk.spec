@@ -5,20 +5,19 @@ Name: AnyKiosk
 Version: %ver.%reldate
 Release: alt1
 
-%setup_python_module %modulename
+#%setup_python_module %modulename
 
 Summary: Easy kiosk mode tuning for various programs
 License: GPL
 Group: System/Configuration/Other
 
 Url: http://unixforum.org/index.php?showtopic=117466
-Packager: Denjs <denjs@users.berlios.de not altlinux>
-#
+Packager: Denjs <for altlinux.org>
+#denjs@users.berlios.de 
 
 Source: anykiosk-0.0.2.20101210.tar.gz
 
 BuildArch:      noarch
-#BuildArch:      i586
 
 #BuildRequires:  python-devel, python-module-setuptools
 BuildPreReq: python python-module-PyQt4 perl
@@ -46,14 +45,13 @@ to enable KIOSK features for various software.
 %python_install
 
 %files
-
 #%changelog
 #* 2010.12.02 Denjs 
 #    Initial build for Sisyphus
 #    (firefox plugin and Qt4 interface)    
 
 %changelog
-* Sun Dec 12 2010 Denjs <denjs@users.berlios.de not altlinux> 0.0.2.20101210-alt1
+* Sun Dec 12 2010 Denjs <for altlinux.org> 0.0.2.20101210-alt1
 [ Denjs ]
 - Initial build for Sisyphus
   + firefix 3.6  plugin
