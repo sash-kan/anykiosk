@@ -12,7 +12,7 @@ License: GPL
 Group: System/Configuration/Other
 
 Url: http://unixforum.org/index.php?showtopic=117466
-Packager: Denjs <for altlinux.org>
+Packager: Denjs <Denjs for altlinux.ru>
 #denjs@users.berlios.de 
 
 Source: anykiosk-0.0.2.20101210.tar.gz
@@ -51,7 +51,7 @@ to enable KIOSK features for various software.
 #    (firefox plugin and Qt4 interface)    
 
 %changelog
-* Sun Dec 12 2010 Denjs <for altlinux.org> 0.0.2.20101210-alt1
+* Sun Dec 12 2010 Denjs <D for altlinux.ru> 0.0.2.20101210-alt1
 [ Denjs ]
 - Initial build for Sisyphus
   + firefix 3.6  plugin
