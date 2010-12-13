@@ -43,9 +43,11 @@ AnyKiosk - утилита настройки различных программ
 #python_install
 %make_install DESTDIR=%buildroot install
 
+
 %files
-%buildroot/usr/share/anykiosk/%name
-%buildroot/usr/bin/anykiosk
+/usr/share/anykiosk/tmp
+/usr/share/anykiosk/%name
+/usr/bin/anykiosk
 
 
 
