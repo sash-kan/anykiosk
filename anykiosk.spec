@@ -17,7 +17,9 @@ Packager: Denjs <denjs@users.berlios.de>
 Source: anykiosk-0.0.2.20101210.tar.gz
 
 BuildArch: noarch
-BuildPreReq: python python-module-PyQt4 perl perl-PerlIO perl-PerlIO-Util
+BuildPreReq: python >=2.5
+BuildPreReq: python-module-PyQt4 >=4.5
+BuildPreReq: perl perl-Encoding perl-PerlIO
 #Requires:
 #python-module-setuptools
 
