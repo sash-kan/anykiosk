@@ -15,7 +15,7 @@ Packager: Denjs <denjs@users.berlios.de>
 Source: anykiosk-0.0.2.20101210.tar.gz
 
 BuildArch: noarch
-BuildPreReq: python python-module-PyQt4 perl
+BuildPreReq: python python-module-PyQt4 python-module-setuptools perl
 
 %description
 AnyKiosk - a Point-and-Click tool for system administrators 
