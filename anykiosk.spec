@@ -46,7 +46,7 @@ AnyKiosk - утилита настройки различных программ
 
 %files
 /usr/share/anykiosk/tmp
-/usr/share/anykiosk/%name
+/usr/share/anykiosk/*
 /usr/bin/anykiosk
 
 
