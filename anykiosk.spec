@@ -19,7 +19,9 @@ Source: anykiosk-0.0.2.20101210.tar.gz
 BuildArch: noarch
 BuildPreReq: python >=2.5
 BuildPreReq: python-module-PyQt4 >=4.5
-BuildPreReq: perl perl-Encoding perl-PerlIO
+BuildPreReq: perl 
+BuildPreReq: perl-Encode >=2.37 
+BuildPreReq: perl-PerlIO >=1:5.8
 #Requires:
 #python-module-setuptools
 
@@ -49,7 +51,7 @@ AnyKiosk - утилита настройки различных программ
 %files
 /usr/share/anykiosk/tmp
 /usr/share/anykiosk/*.py
-#/usr/share/anykiosk/moz-byteshift.pl
+/usr/share/anykiosk/moz-byteshift.pl
 /usr/bin/anykiosk
 
 
