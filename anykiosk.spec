@@ -1,8 +1,6 @@
 %define ver 0.0.2
 %define reldate 20101210
 
-%define modulename foo
-
 Name: AnyKiosk
 Version: %ver.%reldate
 Release: alt1.%reldate
@@ -16,7 +14,7 @@ Group: System/Configuration/Other
 Url: http://unixforum.org/index.php?showtopic=117466
 Packager: Denjs <denjs@users.berlios.de>
 
-Source: anykiosk-%ver.%reldate.tar.gz
+Source: anykiosk-0.0.2.20101210.tar.gz
 
 BuildArch:      noarch
 #BuildArch:      i586
