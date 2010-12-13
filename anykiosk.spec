@@ -44,6 +44,10 @@ AnyKiosk - утилита настройки различных программ
 %make_install DESTDIR=%buildroot install
 
 %files
+%buildroot/usr/share/anykiosk/%name
+%buildroot/usr/bin/anykiosk
+
+
 
 %changelog
 * Sun Dec 12 2010 Denjs <denjs@users.berlios.de> 0.0.2.20101210-alt1
