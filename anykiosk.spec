@@ -1,7 +1,7 @@
 %define ver 0.0.2
 %define reldate 20101210
 
-Name: AnyKiosk
+Name: anykiosk
 Version: %ver.%reldate
 Release: alt1
 
@@ -22,7 +22,7 @@ AnyKiosk - a Point-and-Click tool for system administrators
 to enable KIOSK features for various software.
 0.0.2beta release includes only FireFox 3.6 plugin.
 
-#% description_ru
+# description_ru
 # AnyKiosk - утилита автоматической настройки различных программ в режим киоска -
 # режим с заблокированными от изменения настройками и ограниченной функциональностью.
 # Версия 0.0.2 поставляется с плагином для FireFix 3.6.
