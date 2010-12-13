@@ -1,3 +1,5 @@
+#spec for building rpm for alt-linux with gear
+
 %define ver 0.0.2
 %define reldate 20101210
 
@@ -15,7 +17,8 @@ Packager: Denjs <denjs@users.berlios.de>
 Source: anykiosk-0.0.2.20101210.tar.gz
 
 BuildArch: noarch
-BuildPreReq: python python-module-PyQt4  perl
+BuildPreReq: python >= 2.5 python-module-PyQt4  perl
+#Requires:
 #python-module-setuptools
 
 %description
@@ -37,7 +40,8 @@ AnyKiosk - утилита настройки различных программ
 #python_build
 
 %install
-%python_install
+#python_install
+%makeinstall
 
 %files
 
