@@ -52,6 +52,7 @@ AnyKiosk - утилита автоматической настройки раз
 #    (firefox plugin and Qt4 interface)    
 
 %changelog
-* Sun Dec 12 2010 Denjs <denjs@users.berlios.de not alilinux.org>
-+ Initial build for Sisyphus
-
+* Sun Dec 12 2010 Denjs <denjs@users.berlios.de not-alilinux.org> 0.0.2.20101210-alt1
+[ Denjs ]
+- Initial build for Sisyphus
+  + firefix 3.6  plugin 
