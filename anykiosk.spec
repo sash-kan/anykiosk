@@ -3,7 +3,7 @@
 
 Name: AnyKiosk
 Version: %ver.%reldate
-Release: alt1.%reldate
+Release: alt1
 
 %setup_python_module %modulename
 
@@ -12,7 +12,8 @@ License: GPL
 Group: System/Configuration/Other
 
 Url: http://unixforum.org/index.php?showtopic=117466
-Packager: Denjs <denjs@users.berlios.de>
+Packager: Denjs <denjs@users.berlios.de not-altlinux.org>
+#
 
 Source: anykiosk-0.0.2.20101210.tar.gz
 
@@ -26,6 +27,10 @@ BuildPreReq: python-module-PyQt4 perl
 #BuildPreReq: %py_dependencies qt4
 
 %description
+AnyKiosk - a Point&Click tool for system administrators 
+to enable KIOSK features for various software.
+0.0.2beta release includes only FireFox 3.6 plugin.
+%description_ru
 AnyKiosk - утилита автоматической настройки различных программ в режим киоска -
 режим с заблокированными от изменения настройками и ограниченной функциональностью.
 Версия 0.0.2 поставляется с плагином для FireFix 3.6.
@@ -47,6 +52,6 @@ AnyKiosk - утилита автоматической настройки раз
 #    (firefox plugin and Qt4 interface)    
 
 %changelog
-* Sun Dec 12 2010 Denjs <denjs@users.berlios.de>
+* Sun Dec 12 2010 Denjs <denjs@users.berlios.de not alilinux.org>
 + Initial build for Sisyphus
 
