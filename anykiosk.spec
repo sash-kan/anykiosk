@@ -41,7 +41,7 @@ AnyKiosk - утилита настройки различных программ
 
 %install
 #python_install
-%makeinstall
+%make_install DESTDIR=%buildroot install
 
 %files
 

@@ -1,4 +1,4 @@
-DESTDIR =
+#DESTDIR =
 
 DATADIR = $(DESTDIR)/usr/share/anykiosk
 
