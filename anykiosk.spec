@@ -50,7 +50,6 @@ AnyKiosk - утилита настройки различных программ
 %setup -q
 
 %build
-#python_build
 
 %install
 #python_install
