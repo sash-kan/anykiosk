@@ -18,15 +18,15 @@ Source: anykiosk-0.0.2.20101210.tar.gz
 
 BuildArch: noarch
 
-#BuildPreReq: python >= 2.5
-#BuildPreReq: python-module-PyQt4 >= 4.5
-#BuildPreReq: perl 
+BuildPreReq: python >= 2.5
+BuildPreReq: python-module-PyQt4 >= 4.5
+BuildPreReq: perl 
 BuildPreReq: perl-Encode >= 2.37 
-#BuildPreReq: perl-PerlIO >= 1:5.8
+BuildPreReq: perl-PerlIO >= 1:5.8
 
-Requires: python >= 2.5
-Requires: python-module-PyQt4 >= 4.5
-Requires: perl 
+#Requires: python >= 2.5
+#Requires: python-module-PyQt4 >= 4.5
+#Requires: perl 
 #Requires: perl-Encode >= 2.37 
 #Requires: perl-PerlIO >= 1:5.8
 
