@@ -1,0 +1,103 @@
+AnyKiosk
+------------
+http://anykiosk.berlios.de
+http://developer.berlios.de/projects/anykiosk/
+
+------------
+Copyright (C) 2010 Denjs & Minuru-kun 
+    Denjs <denjs@users.berlios.de>
+	( http://unixforum.org/index.php?showuser=3113 )
+    Minuru-kun 
+	( http://unixforum.org/index.php?showuser=17076 )
+
+------------
+
+AnyKiosk - утилита настройки различных программ в режим киоска -
+режим с заблокированными от изменения настройками и ограниченной
+функциональностью. 
+
+Просто отметье галочками нужные программы и нажмите "применить".
+
+Версия 0.0.2 поставляется с плагином для FireFix 3.6.
+
+------------
+AnyKiosk - a Point-and-Click tool for system administrators
+to enable KIOSK features for various software.
+0.0.2beta release includes only FireFox 3.6 plugin.
+
+(sorry, only Russian localization is present at this version)
+
+------------
+УСТАНОВКА
+    Выполняется от имени суперпользовалеля (root)
+
+    [.tar.gz]
+	Зайдите в каталог куда вы развернули исходники.
+	Выполните команду в консоли от суперпользователя.
+	#make install
+
+    [.rpm]
+	Выполните команду в консоли от суперпользователя:
+	#rpm -Uhv ./anykiosk-0.0.2.20101210-alt1.rpm
+
+------------
+ИСПОЛЬЗОВАНИЕ
+    Выполняется от имени суперпользовалеля (root)
+
+    [.tar.gz][.rpm] (не зависит от варианта поставки)
+	
+	ВНИМАНИЕ! Программа должна исполняться от имени суперпользовтеля.
+	Это связано с тем, что програма настраивает конфигурационные файлы 
+	различных программ, которые доступны для редактирования только для root.
+
+	Для выполнения anykiosk - запустите терминал, 
+	получите права суперпользователя, запустите anykiosk
+    
+	>su
+	Введите пароль:
+	#anykiosk
+	
+	появится графическое окно, отметьте галочками интересующие вас опции,
+	нажмите [Apply]. Программа проведет настройку конфигурационных файлов
+	нужных программ. 
+	
+	ВАЖНО! Программы должны быть установлены в стандартных каталогах,
+	через пакетный менеджер и из репозиториев вашего дистрибутива.
+	
+	В противном случае, 
+	
+------------
+ДЕИНСТАЛЛЯЦИЯ
+    Выполняется от имени суперпользовалеля (root)
+
+    [.tar.gz]
+	Зайдите в каталог /usr/share/anykiosk
+	Выполните команду в консоли от суперпользователя.
+	#make uninstall
+	
+    [.rpm]
+	Выполните команду в консоли от суперпользователя.
+	#rpm -e anykiosk
+	
+	
+------------
+LICENSE
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+version 2, as published by the Free Software Foundation.
+
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+------------
