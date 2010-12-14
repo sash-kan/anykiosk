@@ -11,7 +11,8 @@ Summary: Easy kiosk mode tuning for various programs
 License: GPL
 Group: System/Configuration/Other
 
-Url: http://unixforum.org/index.php?showtopic=117466
+Vendor: UnixForum.org (Denjs & Minoru-kun)
+Url: http://anykiosk.belios.de
 Packager: Denjs <denjs@users.berlios.de>
 
 Source: anykiosk-0.0.2.20101210.tar.gz
